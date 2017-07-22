@@ -1,0 +1,168 @@
+/* Wrapper*/
+.wrapper {
+    width: 65%;
+    box-shadow: 0 10px 30px #888888;
+    margin: 0 auto;
+}
+
+/* Form style */
+.input-group-addon {
+    border-left: 0;
+    border-radius: 0;
+    background-color: transparent;
+    margin-bottom: 0;
+    padding-left: 30px;
+}
+
+#input-form {
+    height: 75px;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.form-controll:focus, .form-controll:active {
+    outline: none;
+}
+
+input[placeholder] {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.col-xs-1 {
+    padding: 0;
+}
+
+/* Todo List */
+
+#todo-list li {
+    list-style-type: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+#todo-list li label {
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+input.toggle {
+    margin-left: 20px;
+}
+
+.destroy {
+    float: right;
+    margin-right: 30px;
+    margin-top: 7px;
+    color: red;
+    font-size: 20px;
+    display: none;
+}
+
+.editing {
+    padding: 0 !important;
+}
+
+.edit {
+    border: 0;
+    margin-left: 58px;
+    display: none;
+}
+
+.editing input {
+    display: block;
+    height: 60px;
+    width: 90%;
+}
+
+input[value] {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.view:hover .destroy {
+    display: block;
+}
+
+.completed {
+    color: #ccc;
+}
+
+.completed label {
+    text-decoration: line-through;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Button style */
+button {
+    background-color: transparent;
+    border: 0;
+    color: #666;
+    font-size: 12px;
+    padding-bottom: 3px;
+}
+
+.btn {
+    margin-bottom: 30px;
+}
+
+.btn:hover {
+    border: 1px solid #d43f3a;
+    background-color: transparent;
+    color: #666;
+    font-size: 14px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.selected {
+    border: 1px solid #d43f3a;
+    outline: none;
+}
+
+#btn-clear {
+    padding-top: 6px;
+    display: none;
+}
+
+#btn-clear:hover {
+    text-decoration: underline;
+    border: 0;
+}
+
+/* Footer */
+footer {
+    padding: 7px;
+    height: 50px;
+    display: none;
+}
+
+.filters {
+    padding: 0;
+    margin-bottom: 13px;
+}
+
+#item-count {
+    padding-top: 6px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: black;
+}
+
+/* Info */
+#info {
+    margin-top: 20px;
+    display: block;
+}
+
+#info h5 {
+    color: #ccc;
+}

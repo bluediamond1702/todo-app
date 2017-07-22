@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TODO LIST</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,initial-scale=1">
+  <link href="css/reset.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <h1 class="text-center">TODOS</h1>
+  <div class="wrapper">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <input type="checkbox" id="toggle-all">
+      </span>
+      <input type="text" class="form-control" id="input-form" placeholder="What needs to be done?" autocomplete="off">
+    </div>
+    <ul id="todo-list"></ul>
+    <footer class="row">
+      <span id="item-count" class="col-xs-3"></span>
+      <ul class="filters col-xs-5 list-inline">
+        <li><button type="button" class="btn btn-all selected" value="all">All</button></li><!--
+        --><li><button type="button" class="btn btn-active" value="active">Active</button></li><!--
+        --><li><button type="button" class="btn btn-complete" value="complete">Complete</button></li>
+      </ul>
+      <button type="button" id="btn-clear" class="col-xs-3">Clear completed</button>
+    </footer>
+  </div>
+  <footer class="text-center" id="info">
+    <h5>Double-click to edit a todo item</h5>
+    <h5>Written by <strong>Greed Zeng</strong></h5>
+  </footer>
+</div>
+
+<script src="js/helper.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
